@@ -1,20 +1,20 @@
 {
-  "name": "note-taker-scl",
-  "version": "1.0.1",
+  "name": "note-taker-mg",
+  "version": "1.0.0",
   "description": "REST adapter for static-web-archive.",
   "private": true,
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:jimkang/note-taker-scl.git"
+    "url": "git@github.com:jimkang/note-taker-mg.git"
   },
   "keywords": [],
   "author": "Jim Kang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimkang/note-taker-scl/issues"
+    "url": "https://github.com/jimkang/note-taker-mg/issues"
   },
-  "homepage": "https://github.com/jimkang/note-taker-scl",
+  "homepage": "https://github.com/jimkang/note-taker-mg",
   "devDependencies": {
     "eslint": "^6.8.0"
   },

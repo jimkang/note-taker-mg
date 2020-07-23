@@ -1,4 +1,4 @@
-note-taker-scl
+note-taker-mg
 ==================
 
 An instance of @jimkang/note-taker.

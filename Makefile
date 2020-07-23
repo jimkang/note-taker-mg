@@ -18,24 +18,24 @@ sync:
 	$(SSHCMD) "cd /opt/$(PROJECTNAME) && npm install"
 
 restart-remote:
-	$(PRIVSSHCMD) "service $(PROJECTNAME) restart"
+	$(PRIVSSHCMD) "sudo service $(PROJECTNAME) restart"
 
 start-service:
-	$(PRIVSSHCMD) "service $(PROJECTNAME) start"
+	$(PRIVSSHCMD) "sudo service $(PROJECTNAME) start"
 
 stop-service:
-	$(PRIVSSHCMD) "service $(PROJECTNAME) stop"
+	$(PRIVSSHCMD) "sudo service $(PROJECTNAME) stop"
 
 update-remote: sync restart-remote
 
 install-service:
-	$(PRIVSSHCMD) "cp $(APPDIR)/$(PROJECTNAME).service /etc/systemd/system && \
-	systemctl enable $(PROJECTNAME)"
+	$(PRIVSSHCMD) "sudo cp $(APPDIR)/$(PROJECTNAME).service /etc/systemd/system && \
+	sudo systemctl enable $(PROJECTNAME)"
 
 set-up-app-dir:
 	$(SSHCMD) "mkdir -p $(APPDIR)"
 
-initial-setup: set-up-app-dir sync set-permissions install-service
+initial-setup: set-up-app-dir sync install-service
 
 check-status:
 	$(SSHCMD) "systemctl status $(PROJECTNAME)"
