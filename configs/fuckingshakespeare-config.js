@@ -6,7 +6,7 @@ module.exports = {
     rootPath:
       '/mnt/storage/archives/web-sites/smidgeo.com/bots/fuckingshakespeare',
     maxEntriesPerPage: 50,
-    fileAbstractionType: 'LocalGit',
+    fileAbstractionType: 'LocalFile',
     footerHTML: `<footer>
     <div>
     <div>This site is updated via <a href="https://github.com/jimkang/note-taker">note-taker</a> and <a href="https://github.com/jimkang/note-sender">note-sender</a>. note-taker is an adapter for <a href="https://github.com/jimkang/static-web-archive">static-web-archive</a>.
