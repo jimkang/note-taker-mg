@@ -9,6 +9,8 @@ module.exports = {
     fileAbstractionType: 'LocalGit',
     footerHTML: `<footer>
     <div>
+      The Ayyy emoji (<img src="https://smidgeo.com/bots/you-never-see-it-bot/media/you-never-see-it-128.png" alt="Ayyy emoji">) was created by <a href="https://github.com/esjay/">Wayne</a>.
+    </div>
     <div>This site is updated via <a href="https://github.com/jimkang/note-taker">note-taker</a> and <a href="https://github.com/jimkang/note-sender">note-sender</a>. note-taker is an adapter for <a href="https://github.com/jimkang/static-web-archive">static-web-archive</a>.
     </div>
     <div>
