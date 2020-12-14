@@ -2,7 +2,7 @@
 Description=note-taker
 After=network.target
 [Service]
-ExecStart=/opt/note-taker/node_modules/.bin/note-taker /opt/note-taker/configs
+ExecStart=/opt/note-taker/node_modules/.bin/note-taker /opt/note-taker/configs --delay-after-writes
 Restart=always
 User=pi
 Group=pi
