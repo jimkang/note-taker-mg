@@ -6,6 +6,8 @@ module.exports = {
     rootPath: '/mnt/storage/archives/web-sites/smidgeo.com/bots/godtributes',
     maxEntriesPerPage: 50,
     fileAbstractionType: 'LocalGit',
+    headExtraHTML:
+      '<meta property="og:image" content="https://smidgeo.com/bots/godtributes/images/icon.png">',
     footerHTML: `<footer>
     <div>
       Banner by <a href="https://twitter.com/metroidbaby">@metroidbaby</a>.
